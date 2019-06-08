@@ -1,111 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .container {
-    width: 100vw;
+  width: 100vw;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    padding: 5rem 10rem;
+  padding: 5rem 10rem;
 
-    min-height: 100vh;
-    background-color: #333;
+  min-height: 100vh;
+  background-color: #333;
 }
 
 .movies {
-    width: 100%;
-    flex: 1;
+  width: 100%;
+  flex: 1;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    background-color: #999;
+  background-color: #999;
 }
 
 .results {
-    width: 60%;
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+  width: 60%;
 
-    background-color: #222;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  background-color: #222;
 }
 
 .results p {
-    font-size: 3rem;
-    color: #fff;
+  font-size: 3rem;
+  color: #fff;
 }
 
 .favorites {
-    width: 35%;
-    background-color: #ddd;
+  width: 35%;
+  background-color: #ddd;
 }
 
 .movie {
-    width: 13rem;
-    height: 16rem;
-    margin: 0.5rem;
+  width: 13rem;
+  height: 16rem;
+  margin: 0.5rem;
 
-    background-color: #eee;
+  background-color: #eee;
 }
 
 .movie figure {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .movie figure img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
 }
 
 .movie figure img:hover {
-    transform: scale(1.1);
+  transform: rotate(5deg) scale(1.2);
 }
 
 .search {
-    width: 100%;
-    height: 5rem;
+  width: 100%;
+  height: 5rem;
 
-    display: flex;
+  display: flex;
 
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 .search .input {
-    width: 100%;
-    flex: 1;
-    height: 100%;
-    border: none;
+  width: 100%;
+  flex: 1;
+  height: 100%;
+  border: none;
 
-    padding: 1rem;
+  padding: 1rem;
 
-    font-size: 3.5rem;
-    color: #777;
-
+  font-size: 3.5rem;
+  color: #777;
 }
 
 .search .btn {
-    width: 5rem;
-    border: none;
-    cursor: pointer;
+  width: 5rem;
+  border: none;
+  cursor: pointer;
 
-    background-color: #aaa;
+  background-color: #aaa;
 }
